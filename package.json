@@ -1,0 +1,35 @@
+{
+  "name": "steam-ts",
+  "version": "0.0.1",
+  "description": "",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Sashenka/steam-ts"
+  },
+  "author": "Sashenka",
+  "license": "MIT",
+  "scripts": {
+    "build": "rm -rf dist && tsc",
+    "extract-api": "api-extractor run",
+    "generate-docs": "api-documenter markdown --input-folder ./dist --output-folder ./docs/api",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "request": "^2.88.0",
+    "request-promise": "^4.2.2",
+    "typescript-logging": "^0.6.4"
+  },
+  "devDependencies": {
+    "@microsoft/api-documenter": "^7.7.1",
+    "@microsoft/api-extractor": "^7.7.0",
+    "@microsoft/tsdoc": "^0.12.15",
+    "@types/request": "^2.48.3",
+    "@types/request-promise": "^4.1.45",
+    "typescript": "^3.7.3"
+  },
+  "engines": {
+    "node": "12.13.1"
+  }
+}
