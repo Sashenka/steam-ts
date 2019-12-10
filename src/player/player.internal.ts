@@ -10,7 +10,7 @@ import {
     OwnedGame,
     Achievement
 } from '../interfaces';
-import {PlayerApi} from '../api';
+import {PlayerService} from './player.service';
 
 /**
  * The internal Player class used to build the Player API.
@@ -28,7 +28,7 @@ export class PlayerInternal implements Player {
     public createdAt: Date;
     public lastLogOffAt: Date;
 
-    constructor(private playerApi: PlayerApi, playerJSON: any){
+    constructor(private playerService: PlayerService, playerJSON: any){
         const p = playerJSON;
 
         const avatar: Avatar = {
@@ -63,37 +63,37 @@ export class PlayerInternal implements Player {
     }
 
     public get level(): Promise<number> {
-        return (async () => await this.playerApi.getLevel(this.steamId))();
+        return (async () => await this.playerService.getLevel(this.steamId))();
     }
 
     public get badges(): Promise<Badge[]> {
-        return (async () => await this.playerApi.getBadges(this.steamId))();
+        return (async () => await this.playerService.getBadges(this.steamId))();
     }
 
     public get bans(): Promise<Ban> {
         return (
-            async () => await this.playerApi.getBans([this.steamId]).then(b=> {return b[0]})
+            async () => await this.playerService.getBans([this.steamId]).then(b=> {return b[0]})
         )();
     }
 
     public get friendList(): Promise<Friend[]> {
-        return (async () => await this.playerApi.getFriendList(this.steamId))();
+        return (async () => await this.playerService.getFriendList(this.steamId))();
     }
 
     public recentlyPlayedGames = (count: number = 0) : Promise<RecentGame[]> => {
-        return this.playerApi.getRecentlyPlayedGames(this.steamId, count);
+        return this.playerService.getRecentlyPlayedGames(this.steamId, count);
     }
 
     public ownedGames = (includePlayedFreeGames: boolean = false) : Promise<OwnedGame[]> => {
-        return this.playerApi.getOwnedGames(this.steamId, includePlayedFreeGames);
+        return this.playerService.getOwnedGames(this.steamId, includePlayedFreeGames);
     }
 
     public get groups(): Promise<string[]> {
-        return (async () => await this.playerApi.getGroups(this.steamId))();
+        return (async () => await this.playerService.getGroups(this.steamId))();
     }
 
     public achievements = (appId: string): Promise<Achievement[]> => {
-        return (async () => await this.playerApi.GetPlayerAchievements(this.steamId, appId))();
+        return (async () => await this.playerService.getPlayerAchievements(this.steamId, appId))();
     }
 
 }

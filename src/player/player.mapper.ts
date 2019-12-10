@@ -8,11 +8,10 @@ import {
     Achievement
 } from '../interfaces';
 import {PlayerInternal} from './player.internal';
-import {PlayerApi} from '../api';
+import {PlayerService} from './player.service';
 
 /**
  * The PlayerMapper class provides methods to map the Stean API JSON response to a typed object.
- * @internal
  */
 export class PlayerMapper {
 
@@ -22,7 +21,7 @@ export class PlayerMapper {
     * @param response - The response JSON
     * @returns A list of Player objects.
     */
-    public static mapPlayerSummaries = (playerApi:PlayerApi, response: any): Player[] => {
+    public static mapPlayerSummaries = (playerApi:PlayerService, response: any): Player[] => {
         let players: Player[] = [];
 
         if(!response){
