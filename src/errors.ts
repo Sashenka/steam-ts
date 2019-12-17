@@ -1,4 +1,16 @@
 /**
+ * The InvalidSteamIdApiKeyError class represent an Error with a the Steam API key.
+ * @public
+ */
+export class InvalidSteamIdApiKeyError extends Error {
+    constructor() {
+        super('Steam API Key missing or invalid.');
+        Object.setPrototypeOf(this, new.target.prototype);
+        this.name = InvalidSteamIdApiKeyError.name;
+    }
+}
+
+/**
  * The InvalidSteamIdError class represent an Error with a Steam Id.
  * @public
  */
@@ -27,8 +39,8 @@ export class InvalidSteamIdArrayError extends Error {
  * @public
  */
 export class MappingError extends Error {
-    constructor(OriginalErrorMessage: string) {
-        super(`Error while mapping the JSON response to the Typescript object. Message: ${OriginalErrorMessage}.`);
+    constructor(originalErrorMessage: string) {
+        super(`Error while mapping the JSON response to the Typescript object. Message: ${originalErrorMessage}.`);
         Error.captureStackTrace(this, this.constructor);
         this.name = MappingError.name;
     }

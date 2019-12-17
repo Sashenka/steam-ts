@@ -4,22 +4,23 @@ import {
     Ban,
     Friend,
     Persona,
-    Player,
-    Profile,
+    Player as PlayerInterface,
+    Community,
     RecentGame,
     OwnedGame,
     Achievement
-} from '../interfaces';
+} from './interfaces';
 import {PlayerService} from './player.service';
 
 /**
  * The internal Player class used to build the Player API.
+ * @private
  */
-export class PlayerInternal implements Player {
+export class Player implements PlayerInterface {
     public steamId: string;
     public persona: Persona;
     public realName: string;
-    public profile: Profile;
+    public community: Community;
     public avatar: Avatar;
     public primaryGroupId: string;
     public countryCode: string;
@@ -43,7 +44,7 @@ export class PlayerInternal implements Player {
             flags: p.personastateflags
         }
 
-        const profile: Profile = {
+        const community: Community = {
             url: p.profileurl,
             state: p.profilestate,
             visibility: p.communityvisibilitystate
@@ -52,7 +53,7 @@ export class PlayerInternal implements Player {
         this.steamId = p.steamid;
         this.persona = persona;
         this.realName = p.realname;
-        this.profile = profile;
+        this.community = community;
         this.avatar = avatar;
         this.primaryGroupId = p.primaryclanid;
         this.countryCode = p.loccountrycode;

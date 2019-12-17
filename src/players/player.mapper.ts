@@ -2,16 +2,17 @@ import {
     Badge,
     Ban,
     Friend,
-    Player,
+    Player as PlayerInterface,
     RecentGame,
     OwnedGame,
     Achievement
-} from '../interfaces';
-import {PlayerInternal} from './player.internal';
+} from './interfaces';
+import {Player} from './player.internal';
 import {PlayerService} from './player.service';
 
 /**
  * The PlayerMapper class provides methods to map the Stean API JSON response to a typed object.
+ * @private
  */
 export class PlayerMapper {
 
@@ -21,15 +22,15 @@ export class PlayerMapper {
     * @param response - The response JSON
     * @returns A list of Player objects.
     */
-    public static mapPlayerSummaries = (playerApi:PlayerService, response: any): Player[] => {
-        let players: Player[] = [];
+    public static mapPlayerSummaries = (playerApi:PlayerService, response: any): PlayerInterface[] => {
+        let players: PlayerInterface[] = [];
 
         if(!response){
             return players;
         }
 
         for(let p of response.players){
-            let player: Player = new PlayerInternal(playerApi, p);
+            let player: PlayerInterface = new Player(playerApi, p);
             players.push(player);
         }
 

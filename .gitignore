@@ -104,5 +104,8 @@ dist
 .tern-port
 
 # misc files
+.theia/
+temp/
 test.ts
 test.js
+test.js.map

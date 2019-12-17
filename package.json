@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "",
   "main": "dist/index.js",
-  "typings": "dist/index.d.ts",
+  "typings": "dist/steam-ts.d.ts",
   "repository": {
     "type": "git",
     "url": "https://github.com/Sashenka/steam-ts"
@@ -22,8 +22,6 @@
     "typescript-logging": "^0.6.4"
   },
   "devDependencies": {
-    "@microsoft/api-documenter": "^7.7.1",
-    "@microsoft/api-extractor": "^7.7.0",
     "@microsoft/tsdoc": "^0.12.15",
     "@types/request": "^2.48.3",
     "@types/request-promise": "^4.1.45",

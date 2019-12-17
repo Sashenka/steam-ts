@@ -1,4 +1,11 @@
+export {Configuration} from './steam';
+export * from './players';
 export * from './errors';
-export * from './interfaces';
 
-export {default as SteamClient} from './steam';
+/*
+export {
+    Configuration,
+    Players,
+    Errors
+};
+*/
