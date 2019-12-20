@@ -1,5 +1,5 @@
 /**
- * An interface describing a player achievement.
+ * A game achievement.
  * @public
  */
 export interface Achievement {

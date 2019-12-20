@@ -1,5 +1,5 @@
 /**
- * An interface describing a badge.
+ * A player's badge.
  * @public
  */
 export interface Badge {

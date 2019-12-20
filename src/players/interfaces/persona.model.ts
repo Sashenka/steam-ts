@@ -1,5 +1,5 @@
 /**
- * An interface describing a player's persona.
+ * A player's persona.
  * @public
  */
 export interface Persona {

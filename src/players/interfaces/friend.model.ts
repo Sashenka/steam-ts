@@ -1,5 +1,5 @@
 /**
- * An interface describing the player's friend.
+ * A member of the player's friendlist.
  * @public
  */
 export interface Friend{

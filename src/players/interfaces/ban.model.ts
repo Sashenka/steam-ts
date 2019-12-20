@@ -1,5 +1,5 @@
 /**
- * An interface describing the player's ban history.
+ * The player's ban history.
  * @public
  */
 export interface Ban {

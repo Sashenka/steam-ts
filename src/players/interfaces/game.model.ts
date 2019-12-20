@@ -1,5 +1,5 @@
 /**
- * An interface describing a basic game.
+ * A basic game.
  * @public
  */
 export interface Game {
@@ -11,7 +11,7 @@ export interface Game {
 }
 
 /**
- * An interface describing a player's recently played game.
+ * A player's recently played game.
  * @public
  */
 export interface RecentGame extends Game {
@@ -19,7 +19,7 @@ export interface RecentGame extends Game {
 }
 
 /**
- * An interface describing a player's owned game.
+ * A player's owned game.
  * @public
  */
 export interface OwnedGame extends Game {

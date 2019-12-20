@@ -1,5 +1,5 @@
 /**
- * An interface describing an player's avatar.
+ * A player's avatar.
  * @public
  */
 export interface Avatar {

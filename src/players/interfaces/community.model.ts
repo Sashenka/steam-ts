@@ -1,5 +1,5 @@
 /**
- * An interface describing a player's community profile.
+ * The player's community profile.
  * @public
  */
 export interface Community{

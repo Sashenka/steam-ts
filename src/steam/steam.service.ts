@@ -1,9 +1,6 @@
 import * as request from "request-promise";
-import {logger} from "../utils";
 import {SteamAPI} from '../enums'
 import {InvalidSteamIdApiKeyError} from '../errors'
-
-const log = logger.getLogger("service.Steam");
 
 /**
  * The ApiService class provide a method to query either the Steam Web or Store API.
@@ -12,7 +9,6 @@ const log = logger.getLogger("service.Steam");
 export class SteamService {
     constructor(private steamApiKey: string){
         if(!steamApiKey){
-            log.error('Steam API Key missing or invalid. Obtain one here: https://steamcommunity.com/dev/apikey.');
             throw new InvalidSteamIdApiKeyError();
         }
     }
@@ -26,7 +22,7 @@ export class SteamService {
      * @returns The response from the API.
      */
     get: any = async (path: string, parameters: string, api: SteamAPI = SteamAPI.Web) => {
-        log.info(`GET ${api}${path}?key=${this.steamApiKey}&${parameters}`);
+        console.info(`GET ${api}${path}?key=${this.steamApiKey}&${parameters}`);
 
         try{
             return await request.get(`${api}${path}?key=${this.steamApiKey}&${parameters}`,{json: true});

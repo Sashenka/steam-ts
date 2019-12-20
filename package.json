@@ -11,20 +11,25 @@
   "author": "Sashenka",
   "license": "MIT",
   "scripts": {
-    "build": "rm -rf dist && tsc",
-    "extract-api": "api-extractor run",
-    "generate-docs": "api-documenter markdown --input-folder ./dist --output-folder ./docs/api",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "clean": "rm -rf dist",
+    "extract-api": "api-extractor run --local",
+    "complete-build": "npm run clean && npm run test && tsc && npm run extract-api",    
+    "generate-docs": "npm run extract-api && api-documenter markdown --input-folder ./temp --output-folder ./docs/api",
+    "test": "mocha -r ts-node/register test/\\*\\*/\\*.spec.ts"
   },
   "dependencies": {
     "request": "^2.88.0",
-    "request-promise": "^4.2.2",
-    "typescript-logging": "^0.6.4"
+    "request-promise": "^4.2.2"
   },
   "devDependencies": {
     "@microsoft/tsdoc": "^0.12.15",
+    "@types/chai": "^4.2.7",
+    "@types/mocha": "^5.2.7",
     "@types/request": "^2.48.3",
     "@types/request-promise": "^4.1.45",
+    "chai": "^4.2.0",
+    "mocha": "^6.2.2",
+    "ts-node": "^8.5.4",
     "typescript": "^3.7.3"
   },
   "engines": {

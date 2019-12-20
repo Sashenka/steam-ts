@@ -13,17 +13,13 @@ import {
     Configuration, 
     SteamService
 } from '../steam';
-import {logger} from "../utils";
 import {map} from '../utils';
-
-const log = logger.getLogger("service.Player");
 
 /**
  * The SteamUser class provides methods to query the Steam API regarding informations about a Steam user.
  * @public
  */
 export class PlayerService {
-    //constructor(private apiService: SteamService){}
     private apiService: SteamService;
 
     constructor(configuration: Configuration){
@@ -55,7 +51,6 @@ export class PlayerService {
      * @returns A list of Player objects.
      */
     getSummaries = async (steamIds: string[]): Promise<PlayerInterface[]> => {
-        log.info(`Calling 'getSummaries' with the following SteamIDs: ${steamIds}`);
         validateSteamIds(steamIds);
 
         const data: any = await this.apiService.get('ISteamUser/GetPlayerSummaries/v2/', `steamids=${steamIds}`);
