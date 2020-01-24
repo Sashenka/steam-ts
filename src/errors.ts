@@ -23,7 +23,7 @@ export class InvalidSteamIdError extends Error {
 }
 
 /**
- * An Error with an Array of Steam Id. The Error concerns the Array itself, an Error with its content will be an InvalidSteamIdError.
+ * An Error with an Array of SteamIDs. The Error concerns the Array itself, an Error with its content will be an {@link InvalidSteamIdError | InvalidSteamIdError}.
  * @public
  */
 export class InvalidSteamIdArrayError extends Error {

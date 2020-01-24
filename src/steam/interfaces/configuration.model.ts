@@ -1,5 +1,5 @@
 /**
- * The configuration need to query the Steam Web API.
+ * The configuration needed to query the Steam Web API.
  * @public
  */
 export interface Configuration {
