@@ -16,5 +16,5 @@ constructor(configuration: Configuration);
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  configuration | <code>Configuration</code> |  |
+|  configuration | [Configuration](./steam-ts.configuration.md) |  |
 

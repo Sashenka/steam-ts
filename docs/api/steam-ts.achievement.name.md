@@ -4,6 +4,8 @@
 
 ## Achievement.name property
 
+The name of this achievement.
+
 <b>Signature:</b>
 
 ```typescript

@@ -4,6 +4,8 @@
 
 ## Game.name property
 
+Name of the application.
+
 <b>Signature:</b>
 
 ```typescript

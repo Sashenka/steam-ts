@@ -22,14 +22,14 @@ export declare class PlayerService
 
 |  Property | Modifiers | Type | Description |
 |  --- | --- | --- | --- |
-|  [getBadges](./steam-ts.playerservice.getbadges.md) |  | <code>(steamId: string) =&gt; Promise&lt;Badge[]&gt;</code> | Return the player's bagdes. |
-|  [getBans](./steam-ts.playerservice.getbans.md) |  | <code>(steamIds: string[]) =&gt; Promise&lt;Ban[]&gt;</code> | Return the ban information of the of the SteamdIds provided. |
-|  [getFriendList](./steam-ts.playerservice.getfriendlist.md) |  | <code>(steamId: string) =&gt; Promise&lt;Friend[]&gt;</code> | Return the player's friend list. |
-|  [getGroups](./steam-ts.playerservice.getgroups.md) |  | <code>(steamId: string) =&gt; Promise&lt;string[]&gt;</code> | Return the list of groups of which the player is a member of. |
-|  [getLevel](./steam-ts.playerservice.getlevel.md) |  | <code>(steamId: string) =&gt; Promise&lt;number&gt;</code> | Return the Steam level of the Player. |
-|  [getOwnedGames](./steam-ts.playerservice.getownedgames.md) |  | <code>(steamId: string, includePlayedFreeGames?: boolean) =&gt; Promise&lt;OwnedGame[]&gt;</code> | Return the list of games owned by a player. |
-|  [getPlayerAchievements](./steam-ts.playerservice.getplayerachievements.md) |  | <code>(steamId: string, appid: string, language?: string) =&gt; Promise&lt;any&gt;</code> | Return the list of achievements for a specific game. |
-|  [getRecentlyPlayedGames](./steam-ts.playerservice.getrecentlyplayedgames.md) |  | <code>(steamId: string, count?: number) =&gt; Promise&lt;RecentGame[]&gt;</code> | Return the list of the recently played games of a player. |
-|  [getSteamId](./steam-ts.playerservice.getsteamid.md) |  | <code>(vanityUrl: string) =&gt; Promise&lt;string&gt;</code> | Get the SteamdId of a Steam user from the profile vanity URL. |
-|  [getSummaries](./steam-ts.playerservice.getsummaries.md) |  | <code>(steamIds: string[]) =&gt; Promise&lt;PlayerInterface[]&gt;</code> | Return the player summary of the SteamdIds provided. |
+|  [getBadges](./steam-ts.playerservice.getbadges.md) |  | (steamId: string) =&gt; Promise&lt;[Badge](./steam-ts.badge.md)<!-- -->\[\]&gt; | Return the player's bagdes. |
+|  [getBans](./steam-ts.playerservice.getbans.md) |  | (steamIds: string\[\]) =&gt; Promise&lt;[Ban](./steam-ts.ban.md)<!-- -->\[\]&gt; | Return the ban information of the of the SteamdIds provided. |
+|  [getFriendList](./steam-ts.playerservice.getfriendlist.md) |  | (steamId: string) =&gt; Promise&lt;[Friend](./steam-ts.friend.md)<!-- -->\[\]&gt; | Return the player's friend list. |
+|  [getGroups](./steam-ts.playerservice.getgroups.md) |  | (steamId: string) =&gt; Promise&lt;string\[\]&gt; | Return the list of groups of which the player is a member of. |
+|  [getLevel](./steam-ts.playerservice.getlevel.md) |  | (steamId: string) =&gt; Promise&lt;number&gt; | Return the Steam level of the Player. |
+|  [getOwnedGames](./steam-ts.playerservice.getownedgames.md) |  | (steamId: string, includePlayedFreeGames?: boolean) =&gt; Promise&lt;[OwnedGame](./steam-ts.ownedgame.md)<!-- -->\[\]&gt; | Return the list of games owned by a player. |
+|  [getPlayerAchievements](./steam-ts.playerservice.getplayerachievements.md) |  | (steamId: string, appid: string, language?: string) =&gt; Promise&lt;any&gt; | Return the list of achievements for a specific game. |
+|  [getRecentlyPlayedGames](./steam-ts.playerservice.getrecentlyplayedgames.md) |  | (steamId: string, count?: number) =&gt; Promise&lt;[RecentGame](./steam-ts.recentgame.md)<!-- -->\[\]&gt; | Return the list of the recently played games of a player. |
+|  [getSteamId](./steam-ts.playerservice.getsteamid.md) |  | (vanityUrl: string) =&gt; Promise&lt;string&gt; | Get the SteamdId of a Steam user from the profile vanity URL. |
+|  [getSummaries](./steam-ts.playerservice.getsummaries.md) |  | (steamIds: string\[\]) =&gt; Promise&lt;[PlayerInterface](./steam-ts.player.md)<!-- -->\[\]&gt; | Return the player summary of the SteamdIds provided. |
 

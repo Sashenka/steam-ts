@@ -16,9 +16,9 @@ export interface Game
 
 |  Property | Type | Description |
 |  --- | --- | --- |
-|  [appId](./steam-ts.game.appid.md) | <code>string</code> |  |
-|  [icon](./steam-ts.game.icon.md) | <code>string</code> |  |
-|  [logo](./steam-ts.game.logo.md) | <code>string</code> |  |
-|  [name](./steam-ts.game.name.md) | <code>string</code> |  |
-|  [playtimeForever](./steam-ts.game.playtimeforever.md) | <code>number</code> |  |
+|  [appId](./steam-ts.game.appid.md) | string |  |
+|  [icon](./steam-ts.game.icon.md) | string |  |
+|  [logo](./steam-ts.game.logo.md) | string |  |
+|  [name](./steam-ts.game.name.md) | string | Name of the application. |
+|  [playtimeForever](./steam-ts.game.playtimeforever.md) | number | Overall playtime in minutes. |
 

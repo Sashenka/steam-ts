@@ -11,10 +11,11 @@ A player's owned game.
 ```typescript
 export interface OwnedGame extends Game 
 ```
+<b>Extends:</b> [Game](./steam-ts.game.md)
 
 ## Properties
 
 |  Property | Type | Description |
 |  --- | --- | --- |
-|  [hasCommunityVisibleStatistics](./steam-ts.ownedgame.hascommunityvisiblestatistics.md) | <code>boolean</code> |  |
+|  [hasCommunityVisibleStatistics](./steam-ts.ownedgame.hascommunityvisiblestatistics.md) | boolean |  |
 

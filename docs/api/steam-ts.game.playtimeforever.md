@@ -4,6 +4,8 @@
 
 ## Game.playtimeForever property
 
+Overall playtime in minutes.
+
 <b>Signature:</b>
 
 ```typescript

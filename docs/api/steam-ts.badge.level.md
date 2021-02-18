@@ -4,6 +4,8 @@
 
 ## Badge.level property
 
+The level of this badge.
+
 <b>Signature:</b>
 
 ```typescript

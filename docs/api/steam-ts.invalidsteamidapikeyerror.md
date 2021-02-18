@@ -11,6 +11,7 @@ An Error with a the Steam API key.
 ```typescript
 export declare class InvalidSteamIdApiKeyError extends Error 
 ```
+<b>Extends:</b> Error
 
 ## Constructors
 

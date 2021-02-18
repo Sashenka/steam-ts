@@ -16,5 +16,5 @@ constructor(given: string);
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  given | <code>string</code> |  |
+|  given | string |  |
 

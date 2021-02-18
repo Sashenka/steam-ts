@@ -11,6 +11,7 @@ An error while mapping the JSON response to the Typescript object.
 ```typescript
 export declare class MappingError extends Error 
 ```
+<b>Extends:</b> Error
 
 ## Constructors
 

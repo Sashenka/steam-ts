@@ -11,7 +11,7 @@ A library for querying the Steam Web API.
 |  Class | Description |
 |  --- | --- |
 |  [InvalidSteamIdApiKeyError](./steam-ts.invalidsteamidapikeyerror.md) | An Error with a the Steam API key. |
-|  [InvalidSteamIdArrayError](./steam-ts.invalidsteamidarrayerror.md) | An Error with an Array of Steam Id. The Error concerns the Array itself, an Error with its content will be an InvalidSteamIdError. |
+|  [InvalidSteamIdArrayError](./steam-ts.invalidsteamidarrayerror.md) | An Error with an Array of SteamIDs. The Error concerns the Array itself, an Error with its content will be an [InvalidSteamIdError](./steam-ts.invalidsteamiderror.md)<!-- -->. |
 |  [InvalidSteamIdError](./steam-ts.invalidsteamiderror.md) | An Error with a SteamID. |
 |  [MappingError](./steam-ts.mappingerror.md) | An error while mapping the JSON response to the Typescript object. |
 |  [PlayerService](./steam-ts.playerservice.md) | The SteamUser class provides methods to query the Steam API regarding informations about a Steam user. |
@@ -25,11 +25,11 @@ A library for querying the Steam Web API.
 |  [Badge](./steam-ts.badge.md) | A player's badge. |
 |  [Ban](./steam-ts.ban.md) | The player's ban history. |
 |  [Community](./steam-ts.community.md) | The player's community profile. |
-|  [Configuration](./steam-ts.configuration.md) | The configuration need to query the Steam Web API. |
+|  [Configuration](./steam-ts.configuration.md) | The configuration needed to query the Steam Web API. |
 |  [Friend](./steam-ts.friend.md) | A member of the player's friendlist. |
 |  [Game](./steam-ts.game.md) | A basic game. |
 |  [OwnedGame](./steam-ts.ownedgame.md) | A player's owned game. |
 |  [Persona](./steam-ts.persona.md) | A player's persona. |
-|  [Player](./steam-ts.player.md) | A Player from the Steam API. It also provides methods to call API with the current player's Steam Id. |
+|  [Player](./steam-ts.player.md) | A Player from the Steam API. It also provides methods to call API with the current player's SteamID. |
 |  [RecentGame](./steam-ts.recentgame.md) | A player's recently played game. |
 

@@ -8,7 +8,7 @@ import {RecentGame, OwnedGame} from './game.model';
 import {Achievement} from './achievement.model';
 
 /**
- * A Player from the Steam API. It also provides methods to call API with the current player's Steam Id.
+ * A Player from the Steam API. It also provides methods to call API with the current player's SteamID.
  * @public
  */
 export interface Player {

@@ -16,9 +16,9 @@ achievements(appId: string): Promise<Achievement[]>;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  appId | <code>string</code> |  |
+|  appId | string |  |
 
 <b>Returns:</b>
 
-`Promise<Achievement[]>`
+Promise&lt;[Achievement](./steam-ts.achievement.md)<!-- -->\[\]&gt;
 

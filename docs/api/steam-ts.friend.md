@@ -16,7 +16,7 @@ export interface Friend
 
 |  Property | Type | Description |
 |  --- | --- | --- |
-|  [relationship](./steam-ts.friend.relationship.md) | <code>string</code> | Relationship qualifier |
-|  [since](./steam-ts.friend.since.md) | <code>Date</code> | Date when the relationship was created. |
-|  [steamId](./steam-ts.friend.steamid.md) | <code>string</code> | 64bit SteamID of the user |
+|  [relationship](./steam-ts.friend.relationship.md) | string | Relationship qualifier. |
+|  [since](./steam-ts.friend.since.md) | Date | Date when the relationship was created. |
+|  [steamId](./steam-ts.friend.steamid.md) | string | 64bit SteamID of the user. |
 

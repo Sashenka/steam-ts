@@ -16,7 +16,7 @@ export interface Community
 
 |  Property | Type | Description |
 |  --- | --- | --- |
-|  [state](./steam-ts.community.state.md) | <code>number</code> | Indicates the user has a community profile configured (will be set to '1'). |
-|  [url](./steam-ts.community.url.md) | <code>string</code> | The full URL of the player's Steam Community profile. |
-|  [visibility](./steam-ts.community.visibility.md) | <code>number</code> | This represents whether the profile is visible or not. |
+|  [state](./steam-ts.community.state.md) | number | Indicates the user has a community profile configured (will be set to '1'). |
+|  [url](./steam-ts.community.url.md) | string | The full URL of the player's Steam Community profile. |
+|  [visibility](./steam-ts.community.visibility.md) | number | This represents whether the profile is visible or not. |
 

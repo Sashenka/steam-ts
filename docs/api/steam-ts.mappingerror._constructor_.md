@@ -16,5 +16,5 @@ constructor(originalErrorMessage: string);
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  originalErrorMessage | <code>string</code> |  |
+|  originalErrorMessage | string |  |
 

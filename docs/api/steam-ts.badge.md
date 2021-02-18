@@ -16,12 +16,12 @@ export interface Badge
 
 |  Property | Type | Description |
 |  --- | --- | --- |
-|  [appId](./steam-ts.badge.appid.md) | <code>number</code> |  |
-|  [borderColor](./steam-ts.badge.bordercolor.md) | <code>number</code> |  |
-|  [communityItemId](./steam-ts.badge.communityitemid.md) | <code>string</code> |  |
-|  [completedAt](./steam-ts.badge.completedat.md) | <code>Date</code> |  |
-|  [experience](./steam-ts.badge.experience.md) | <code>number</code> |  |
-|  [id](./steam-ts.badge.id.md) | <code>number</code> |  |
-|  [level](./steam-ts.badge.level.md) | <code>number</code> |  |
-|  [scarcity](./steam-ts.badge.scarcity.md) | <code>number</code> |  |
+|  [appId](./steam-ts.badge.appid.md) | number |  |
+|  [borderColor](./steam-ts.badge.bordercolor.md) | number |  |
+|  [communityItemId](./steam-ts.badge.communityitemid.md) | string |  |
+|  [completedAt](./steam-ts.badge.completedat.md) | Date | The date at which this badge was awarded. |
+|  [experience](./steam-ts.badge.experience.md) | number | The amount of experience awarded by this badge. |
+|  [id](./steam-ts.badge.id.md) | number |  |
+|  [level](./steam-ts.badge.level.md) | number | The level of this badge. |
+|  [scarcity](./steam-ts.badge.scarcity.md) | number |  |
 

@@ -11,6 +11,7 @@ An Error with a SteamID.
 ```typescript
 export declare class InvalidSteamIdError extends Error 
 ```
+<b>Extends:</b> Error
 
 ## Constructors
 

@@ -16,9 +16,9 @@ ownedGames(includePlayedFreeGames: boolean): Promise<OwnedGame[]>;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  includePlayedFreeGames | <code>boolean</code> |  |
+|  includePlayedFreeGames | boolean |  |
 
 <b>Returns:</b>
 
-`Promise<OwnedGame[]>`
+Promise&lt;[OwnedGame](./steam-ts.ownedgame.md)<!-- -->\[\]&gt;
 

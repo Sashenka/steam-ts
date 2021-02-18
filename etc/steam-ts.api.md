@@ -6,15 +6,10 @@
 
 // @public
 export interface Achievement {
-    // (undocumented)
     achievedAt: Date;
-    // (undocumented)
     apiName: string;
-    // (undocumented)
     description: string;
-    // (undocumented)
     isAchieved: boolean;
-    // (undocumented)
     name: string;
 }
 
@@ -33,13 +28,10 @@ export interface Badge {
     borderColor: number;
     // (undocumented)
     communityItemId: string;
-    // (undocumented)
     completedAt: Date;
-    // (undocumented)
     experience: number;
     // (undocumented)
     id: number;
-    // (undocumented)
     level: number;
     // (undocumented)
     scarcity: number;
@@ -90,9 +82,7 @@ export interface Game {
     icon: string;
     // (undocumented)
     logo: string;
-    // (undocumented)
     name: string;
-    // (undocumented)
     playtimeForever: number;
 }
 
@@ -171,7 +161,6 @@ export class PlayerService {
 
 // @public
 export interface RecentGame extends Game {
-    // (undocumented)
     playtimeLastTwoWeeks: number;
 }
 

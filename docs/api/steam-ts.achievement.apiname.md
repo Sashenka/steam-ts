@@ -4,6 +4,8 @@
 
 ## Achievement.apiName property
 
+The string used to access this achievement using the API.
+
 <b>Signature:</b>
 
 ```typescript

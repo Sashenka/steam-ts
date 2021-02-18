@@ -4,6 +4,8 @@
 
 ## Badge.completedAt property
 
+The date at which this badge was awarded.
+
 <b>Signature:</b>
 
 ```typescript

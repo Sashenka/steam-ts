@@ -16,9 +16,9 @@ recentlyPlayedGames(count: number): Promise<RecentGame[]>;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  count | <code>number</code> |  |
+|  count | number |  |
 
 <b>Returns:</b>
 
-`Promise<RecentGame[]>`
+Promise&lt;[RecentGame](./steam-ts.recentgame.md)<!-- -->\[\]&gt;
 

@@ -4,6 +4,8 @@
 
 ## RecentGame.playtimeLastTwoWeeks property
 
+Playtime in minute since the last two weeks.
+
 <b>Signature:</b>
 
 ```typescript

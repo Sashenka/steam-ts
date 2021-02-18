@@ -4,7 +4,7 @@
 
 ## Friend.steamId property
 
-64bit SteamID of the user
+64bit SteamID of the user.
 
 <b>Signature:</b>
 

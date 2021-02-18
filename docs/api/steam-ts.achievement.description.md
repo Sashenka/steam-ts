@@ -4,6 +4,8 @@
 
 ## Achievement.description property
 
+A description of this achievement, for displaying in the Community. May be localized.
+
 <b>Signature:</b>
 
 ```typescript

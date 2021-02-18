@@ -4,13 +4,14 @@
 
 ## InvalidSteamIdArrayError class
 
-An Error with an Array of Steam Id. The Error concerns the Array itself, an Error with its content will be an InvalidSteamIdError.
+An Error with an Array of SteamIDs. The Error concerns the Array itself, an Error with its content will be an [InvalidSteamIdError](./steam-ts.invalidsteamiderror.md)<!-- -->.
 
 <b>Signature:</b>
 
 ```typescript
 export declare class InvalidSteamIdArrayError extends Error 
 ```
+<b>Extends:</b> Error
 
 ## Constructors
 

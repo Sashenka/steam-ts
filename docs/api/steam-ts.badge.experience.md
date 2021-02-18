@@ -4,6 +4,8 @@
 
 ## Badge.experience property
 
+The amount of experience awarded by this badge.
+
 <b>Signature:</b>
 
 ```typescript

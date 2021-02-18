@@ -4,7 +4,7 @@
 
 ## Friend.relationship property
 
-Relationship qualifier
+Relationship qualifier.
 
 <b>Signature:</b>
 

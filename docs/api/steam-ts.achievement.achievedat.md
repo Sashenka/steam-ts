@@ -4,6 +4,8 @@
 
 ## Achievement.achievedAt property
 
+The date at which the achievement has been attained, null if isAchieved is false.
+
 <b>Signature:</b>
 
 ```typescript

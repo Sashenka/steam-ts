@@ -16,11 +16,11 @@ export interface Ban
 
 |  Property | Type | Description |
 |  --- | --- | --- |
-|  [daysSinceLastBan](./steam-ts.ban.dayssincelastban.md) | <code>number</code> |  |
-|  [isCommunityBanned](./steam-ts.ban.iscommunitybanned.md) | <code>boolean</code> |  |
-|  [isEconomyBanned](./steam-ts.ban.iseconomybanned.md) | <code>string</code> |  |
-|  [numberOfGameBans](./steam-ts.ban.numberofgamebans.md) | <code>number</code> |  |
-|  [numberOfVACBans](./steam-ts.ban.numberofvacbans.md) | <code>number</code> |  |
-|  [steamId](./steam-ts.ban.steamid.md) | <code>string</code> |  |
-|  [vacBanned](./steam-ts.ban.vacbanned.md) | <code>boolean</code> |  |
+|  [daysSinceLastBan](./steam-ts.ban.dayssincelastban.md) | number |  |
+|  [isCommunityBanned](./steam-ts.ban.iscommunitybanned.md) | boolean |  |
+|  [isEconomyBanned](./steam-ts.ban.iseconomybanned.md) | string |  |
+|  [numberOfGameBans](./steam-ts.ban.numberofgamebans.md) | number |  |
+|  [numberOfVACBans](./steam-ts.ban.numberofvacbans.md) | number |  |
+|  [steamId](./steam-ts.ban.steamid.md) | string |  |
+|  [vacBanned](./steam-ts.ban.vacbanned.md) | boolean |  |
 

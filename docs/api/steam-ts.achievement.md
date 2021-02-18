@@ -16,9 +16,9 @@ export interface Achievement
 
 |  Property | Type | Description |
 |  --- | --- | --- |
-|  [achievedAt](./steam-ts.achievement.achievedat.md) | <code>Date</code> |  |
-|  [apiName](./steam-ts.achievement.apiname.md) | <code>string</code> |  |
-|  [description](./steam-ts.achievement.description.md) | <code>string</code> |  |
-|  [isAchieved](./steam-ts.achievement.isachieved.md) | <code>boolean</code> |  |
-|  [name](./steam-ts.achievement.name.md) | <code>string</code> |  |
+|  [achievedAt](./steam-ts.achievement.achievedat.md) | Date | The date at which the achievement has been attained, null if isAchieved is false. |
+|  [apiName](./steam-ts.achievement.apiname.md) | string | The string used to access this achievement using the API. |
+|  [description](./steam-ts.achievement.description.md) | string | A description of this achievement, for displaying in the Community. May be localized. |
+|  [isAchieved](./steam-ts.achievement.isachieved.md) | boolean | A boolean indicating if this achievement has been attained. |
+|  [name](./steam-ts.achievement.name.md) | string | The name of this achievement. |
 

@@ -11,10 +11,11 @@ A player's recently played game.
 ```typescript
 export interface RecentGame extends Game 
 ```
+<b>Extends:</b> [Game](./steam-ts.game.md)
 
 ## Properties
 
 |  Property | Type | Description |
 |  --- | --- | --- |
-|  [playtimeLastTwoWeeks](./steam-ts.recentgame.playtimelasttwoweeks.md) | <code>number</code> |  |
+|  [playtimeLastTwoWeeks](./steam-ts.recentgame.playtimelasttwoweeks.md) | number | Playtime in minute since the last two weeks. |
 

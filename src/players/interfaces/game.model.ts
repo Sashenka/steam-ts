@@ -4,7 +4,9 @@
  */
 export interface Game {
     appId: string,
+    /** Name of the application. */
     name: string,
+    /** Overall playtime in minutes. */
     playtimeForever: number,
     icon: string,
     logo: string
@@ -15,6 +17,7 @@ export interface Game {
  * @public
  */
 export interface RecentGame extends Game {
+    /** Playtime in minute since the last two weeks. */
     playtimeLastTwoWeeks: number,
 }
 
