@@ -76,11 +76,8 @@ export interface Friend {
 
 // @public
 export interface Game {
-    // (undocumented)
     appId: string;
-    // (undocumented)
     icon: string;
-    // (undocumented)
     logo: string;
     name: string;
     playtimeForever: number;
@@ -108,8 +105,8 @@ export class MappingError extends Error {
 
 // @public
 export interface OwnedGame extends Game {
-    // (undocumented)
     hasCommunityVisibleStatistics: boolean;
+    statistics: string;
 }
 
 // @public

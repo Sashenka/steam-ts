@@ -31,7 +31,7 @@ export interface Player
 |  [primaryGroupId](./steam-ts.player.primarygroupid.md) | string | The player's primary group, as configured in their Steam Community profile. |
 |  [realName](./steam-ts.player.realname.md) | string | The player's "Real Name", if they have set it. |
 |  [stateCode](./steam-ts.player.statecode.md) | string | An internal code indicating the user's state of residence. |
-|  [steamId](./steam-ts.player.steamid.md) | string | 64bit SteamID of the user |
+|  [steamId](./steam-ts.player.steamid.md) | string | 64bit SteamID of the user. |
 
 ## Methods
 

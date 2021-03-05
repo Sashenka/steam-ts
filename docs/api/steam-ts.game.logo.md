@@ -4,6 +4,8 @@
 
 ## Game.logo property
 
+URL for the logo of the game.
+
 <b>Signature:</b>
 
 ```typescript

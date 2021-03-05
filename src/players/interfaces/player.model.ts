@@ -12,7 +12,7 @@ import {Achievement} from './achievement.model';
  * @public
  */
 export interface Player {
-    /** 64bit SteamID of the user */
+    /** 64bit SteamID of the user. */
     steamId: string;
     /** {@inheritDoc Persona} */
     persona: Persona;

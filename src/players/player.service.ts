@@ -140,7 +140,7 @@ export class PlayerService {
         }
 
         const data: any = await this.apiService.get('IPlayerService/GetOwnedGames/v1/', parameters);
-        return map(PlayerMapper.mapOwnedGames, data.response.games);
+        return map(PlayerMapper.mapOwnedGames, steamId, data.response.games);
     }
 
     /**

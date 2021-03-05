@@ -4,7 +4,7 @@
 
 ## RecentGame.playtimeLastTwoWeeks property
 
-Playtime in minute since the last two weeks.
+Playtime in minute in the last two weeks.
 
 <b>Signature:</b>
 

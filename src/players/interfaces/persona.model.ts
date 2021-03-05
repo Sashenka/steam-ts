@@ -3,9 +3,9 @@
  * @public
  */
 export interface Persona {
-    /** The player's persona name (display name) */
+    /** The player's persona name (display name). */
     name: string;
-    /** The player's current status */
+    /** The player's current status. */
     state: number;
     flags: number;
 }

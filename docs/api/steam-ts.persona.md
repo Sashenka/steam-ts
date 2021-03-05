@@ -17,6 +17,6 @@ export interface Persona
 |  Property | Type | Description |
 |  --- | --- | --- |
 |  [flags](./steam-ts.persona.flags.md) | number |  |
-|  [name](./steam-ts.persona.name.md) | string | The player's persona name (display name) |
-|  [state](./steam-ts.persona.state.md) | number | The player's current status |
+|  [name](./steam-ts.persona.name.md) | string | The player's persona name (display name). |
+|  [state](./steam-ts.persona.state.md) | number | The player's current status. |
 

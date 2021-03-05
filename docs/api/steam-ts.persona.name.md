@@ -4,7 +4,7 @@
 
 ## Persona.name property
 
-The player's persona name (display name)
+The player's persona name (display name).
 
 <b>Signature:</b>
 

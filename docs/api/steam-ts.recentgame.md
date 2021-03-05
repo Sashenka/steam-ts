@@ -17,5 +17,5 @@ export interface RecentGame extends Game
 
 |  Property | Type | Description |
 |  --- | --- | --- |
-|  [playtimeLastTwoWeeks](./steam-ts.recentgame.playtimelasttwoweeks.md) | number | Playtime in minute since the last two weeks. |
+|  [playtimeLastTwoWeeks](./steam-ts.recentgame.playtimelasttwoweeks.md) | number | Playtime in minute in the last two weeks. |
 

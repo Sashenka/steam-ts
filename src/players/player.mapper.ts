@@ -143,8 +143,8 @@ export class PlayerMapper {
                 name: g.name,
                 playtimeLastTwoWeeks: g.playtime_2weeks,
                 playtimeForever: g.playtime_forever,
-                icon: g.img_icon_url,
-                logo: g.img_logo_url
+                icon: `http://media.steampowered.com/steamcommunity/public/images/apps/${g.appid}/${g.img_icon_url}.jpg`,
+                logo: `http://media.steampowered.com/steamcommunity/public/images/apps/${g.appid}/${g.img_logo_url}.jpg`
             }
 
             games.push(game);
@@ -159,7 +159,7 @@ export class PlayerMapper {
     * @param response - The response JSON
     * @returns A list of OwnedGame objects.
     */
-    public static mapOwnedGames = (response: any): OwnedGame[] => {
+    public static mapOwnedGames = (steamid:string, response: any): OwnedGame[] => {
         let games: OwnedGame[] = [];
 
         if(!response){
@@ -173,7 +173,8 @@ export class PlayerMapper {
                 playtimeForever: g.playtime_forever,
                 icon: g.img_icon_url,
                 logo: g.img_logo_url,
-                hasCommunityVisibleStatistics: g.has_community_visible_stats
+                hasCommunityVisibleStatistics: g.has_community_visible_stats || false,
+                statistics: (g.has_community_visible_stats ? `http://steamcommunity.com/profiles/${steamid}/stats/${g.appid}` : null)
             }
 
             games.push(game);

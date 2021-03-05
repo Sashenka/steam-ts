@@ -17,5 +17,6 @@ export interface OwnedGame extends Game
 
 |  Property | Type | Description |
 |  --- | --- | --- |
-|  [hasCommunityVisibleStatistics](./steam-ts.ownedgame.hascommunityvisiblestatistics.md) | boolean |  |
+|  [hasCommunityVisibleStatistics](./steam-ts.ownedgame.hascommunityvisiblestatistics.md) | boolean | Indicates there is a statistics page with achievements or other game statistics available for this game. |
+|  [statistics](./steam-ts.ownedgame.statistics.md) | string | If hasCommunityVisibleStatistics is True, this is the URL to the statistics page of the Player fo this game. |
 

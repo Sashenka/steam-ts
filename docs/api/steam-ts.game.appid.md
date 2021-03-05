@@ -4,6 +4,8 @@
 
 ## Game.appId property
 
+Unique identifier for the game.
+
 <b>Signature:</b>
 
 ```typescript

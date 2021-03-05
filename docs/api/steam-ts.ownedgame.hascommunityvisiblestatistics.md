@@ -4,6 +4,8 @@
 
 ## OwnedGame.hasCommunityVisibleStatistics property
 
+Indicates there is a statistics page with achievements or other game statistics available for this game.
+
 <b>Signature:</b>
 
 ```typescript

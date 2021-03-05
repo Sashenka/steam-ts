@@ -4,6 +4,8 @@
 
 ## Game.icon property
 
+URL for the icon of the game.
+
 <b>Signature:</b>
 
 ```typescript

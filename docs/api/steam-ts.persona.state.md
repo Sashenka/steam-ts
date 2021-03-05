@@ -4,7 +4,7 @@
 
 ## Persona.state property
 
-The player's current status
+The player's current status.
 
 <b>Signature:</b>
 
