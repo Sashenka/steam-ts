@@ -4,7 +4,7 @@
 
 ## Ban.steamId property
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 steamId: string;

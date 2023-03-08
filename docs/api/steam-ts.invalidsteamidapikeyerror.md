@@ -6,12 +6,12 @@
 
 An Error with a the Steam API key.
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 export declare class InvalidSteamIdApiKeyError extends Error 
 ```
-<b>Extends:</b> Error
+**Extends:** Error
 
 ## Constructors
 

@@ -6,7 +6,7 @@
 
 Constructs a new instance of the `InvalidSteamIdArrayError` class
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 constructor(given: number);

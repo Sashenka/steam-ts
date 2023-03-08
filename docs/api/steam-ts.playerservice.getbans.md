@@ -6,7 +6,7 @@
 
 Return the ban information of the of the SteamdIds provided.
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 getBans: (steamIds: string[]) => Promise<Ban[]>;

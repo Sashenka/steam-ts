@@ -6,7 +6,7 @@
 
 Indicates the user has a community profile configured (will be set to '1').
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 state: number;

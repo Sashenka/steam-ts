@@ -6,7 +6,7 @@
 
 Return the list of groups of which the player is a member of.
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 getGroups: (steamId: string) => Promise<string[]>;

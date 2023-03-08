@@ -6,7 +6,7 @@
 
 A member of the player's friendlist.
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 export interface Friend 
@@ -14,9 +14,9 @@ export interface Friend
 
 ## Properties
 
-|  Property | Type | Description |
-|  --- | --- | --- |
-|  [relationship](./steam-ts.friend.relationship.md) | string | Relationship qualifier. |
-|  [since](./steam-ts.friend.since.md) | Date | Date when the relationship was created. |
-|  [steamId](./steam-ts.friend.steamid.md) | string | 64bit SteamID of the user. |
+|  Property | Modifiers | Type | Description |
+|  --- | --- | --- | --- |
+|  [relationship](./steam-ts.friend.relationship.md) |  | string | Relationship qualifier. |
+|  [since](./steam-ts.friend.since.md) |  | Date | Date when the relationship was created. |
+|  [steamId](./steam-ts.friend.steamid.md) |  | string | 64bit SteamID of the user. |
 

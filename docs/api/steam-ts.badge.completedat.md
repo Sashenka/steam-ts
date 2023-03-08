@@ -6,7 +6,7 @@
 
 The date at which this badge was awarded.
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 completedAt: Date;

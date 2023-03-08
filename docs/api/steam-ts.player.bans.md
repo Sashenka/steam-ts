@@ -6,7 +6,7 @@
 
 The player's ban history.
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 bans: Promise<Ban>;

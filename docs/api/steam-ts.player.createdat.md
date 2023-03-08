@@ -6,7 +6,7 @@
 
 The date the player's account was created.
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 createdAt: Date;

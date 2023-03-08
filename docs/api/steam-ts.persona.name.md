@@ -6,7 +6,7 @@
 
 The player's persona name (display name).
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 name: string;

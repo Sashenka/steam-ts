@@ -6,17 +6,17 @@
 
 A player's owned game.
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 export interface OwnedGame extends Game 
 ```
-<b>Extends:</b> [Game](./steam-ts.game.md)
+**Extends:** [Game](./steam-ts.game.md)
 
 ## Properties
 
-|  Property | Type | Description |
-|  --- | --- | --- |
-|  [hasCommunityVisibleStatistics](./steam-ts.ownedgame.hascommunityvisiblestatistics.md) | boolean | Indicates there is a statistics page with achievements or other game statistics available for this game. |
-|  [statistics](./steam-ts.ownedgame.statistics.md) | string | If hasCommunityVisibleStatistics is True, this is the URL to the statistics page of the Player fo this game. |
+|  Property | Modifiers | Type | Description |
+|  --- | --- | --- | --- |
+|  [hasCommunityVisibleStatistics](./steam-ts.ownedgame.hascommunityvisiblestatistics.md) |  | boolean | Indicates there is a statistics page with achievements or other game statistics available for this game. |
+|  [statistics](./steam-ts.ownedgame.statistics.md) |  | string | If hasCommunityVisibleStatistics is True, this is the URL to the statistics page of the Player fo this game. |
 

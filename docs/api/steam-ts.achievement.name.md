@@ -6,7 +6,7 @@
 
 The name of this achievement.
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 name: string;

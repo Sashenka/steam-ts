@@ -4,7 +4,7 @@
 
 ## Player.groups property
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 groups: Promise<string[]>;

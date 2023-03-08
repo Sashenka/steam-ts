@@ -6,7 +6,7 @@
 
 The full URL of the player's 64x64px avatar.
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 medium: string;

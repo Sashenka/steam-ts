@@ -4,7 +4,7 @@
 
 ## Badge.communityItemId property
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 communityItemId: string;

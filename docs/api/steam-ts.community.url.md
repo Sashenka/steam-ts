@@ -6,7 +6,7 @@
 
 The full URL of the player's Steam Community profile.
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 url: string;

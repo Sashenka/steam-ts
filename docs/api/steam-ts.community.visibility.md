@@ -6,7 +6,7 @@
 
 This represents whether the profile is visible or not.
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 visibility: number;

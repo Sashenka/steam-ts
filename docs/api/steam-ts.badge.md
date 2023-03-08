@@ -6,7 +6,7 @@
 
 A player's badge.
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 export interface Badge 
@@ -14,14 +14,14 @@ export interface Badge
 
 ## Properties
 
-|  Property | Type | Description |
-|  --- | --- | --- |
-|  [appId](./steam-ts.badge.appid.md) | number |  |
-|  [borderColor](./steam-ts.badge.bordercolor.md) | number |  |
-|  [communityItemId](./steam-ts.badge.communityitemid.md) | string |  |
-|  [completedAt](./steam-ts.badge.completedat.md) | Date | The date at which this badge was awarded. |
-|  [experience](./steam-ts.badge.experience.md) | number | The amount of experience awarded by this badge. |
-|  [id](./steam-ts.badge.id.md) | number |  |
-|  [level](./steam-ts.badge.level.md) | number | The level of this badge. |
-|  [scarcity](./steam-ts.badge.scarcity.md) | number |  |
+|  Property | Modifiers | Type | Description |
+|  --- | --- | --- | --- |
+|  [appId](./steam-ts.badge.appid.md) |  | number |  |
+|  [borderColor](./steam-ts.badge.bordercolor.md) |  | number |  |
+|  [communityItemId](./steam-ts.badge.communityitemid.md) |  | string |  |
+|  [completedAt](./steam-ts.badge.completedat.md) |  | Date | The date at which this badge was awarded. |
+|  [experience](./steam-ts.badge.experience.md) |  | number | The amount of experience awarded by this badge. |
+|  [id](./steam-ts.badge.id.md) |  | number |  |
+|  [level](./steam-ts.badge.level.md) |  | number | The level of this badge. |
+|  [scarcity](./steam-ts.badge.scarcity.md) |  | number |  |
 

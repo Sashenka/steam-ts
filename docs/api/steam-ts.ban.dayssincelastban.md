@@ -4,7 +4,7 @@
 
 ## Ban.daysSinceLastBan property
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 daysSinceLastBan: number;

@@ -6,7 +6,7 @@
 
 A player's avatar.
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 avatar: Avatar;

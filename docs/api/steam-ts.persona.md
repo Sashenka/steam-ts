@@ -6,7 +6,7 @@
 
 A player's persona.
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 export interface Persona 
@@ -14,9 +14,9 @@ export interface Persona
 
 ## Properties
 
-|  Property | Type | Description |
-|  --- | --- | --- |
-|  [flags](./steam-ts.persona.flags.md) | number |  |
-|  [name](./steam-ts.persona.name.md) | string | The player's persona name (display name). |
-|  [state](./steam-ts.persona.state.md) | number | The player's current status. |
+|  Property | Modifiers | Type | Description |
+|  --- | --- | --- | --- |
+|  [flags](./steam-ts.persona.flags.md) |  | number |  |
+|  [name](./steam-ts.persona.name.md) |  | string | The player's persona name (display name). |
+|  [state](./steam-ts.persona.state.md) |  | number | The player's current status. |
 

@@ -6,12 +6,12 @@
 
 An Error with an Array of SteamIDs. The Error concerns the Array itself, an Error with its content will be an [InvalidSteamIdError](./steam-ts.invalidsteamiderror.md)<!-- -->.
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 export declare class InvalidSteamIdArrayError extends Error 
 ```
-<b>Extends:</b> Error
+**Extends:** Error
 
 ## Constructors
 

@@ -6,12 +6,12 @@
 
 An error while mapping the JSON response to the Typescript object.
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 export declare class MappingError extends Error 
 ```
-<b>Extends:</b> Error
+**Extends:** Error
 
 ## Constructors
 

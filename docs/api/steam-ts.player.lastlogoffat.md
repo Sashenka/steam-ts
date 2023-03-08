@@ -6,7 +6,7 @@
 
 The last time the user was online.
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 lastLogOffAt: Date;

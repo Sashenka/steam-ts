@@ -6,7 +6,7 @@
 
 A list of the player's Steam [friends](./steam-ts.friend.md)<!-- -->.
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 friendList: Promise<Friend[]>;

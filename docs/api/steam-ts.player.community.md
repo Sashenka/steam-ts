@@ -6,7 +6,7 @@
 
 The player's community profile.
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 community: Community;

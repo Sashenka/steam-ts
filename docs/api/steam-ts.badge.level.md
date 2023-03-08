@@ -6,7 +6,7 @@
 
 The level of this badge.
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 level: number;

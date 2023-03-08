@@ -6,7 +6,7 @@
 
 Name of the application.
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 name: string;

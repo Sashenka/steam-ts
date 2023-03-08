@@ -6,7 +6,7 @@
 
 The player's "Real Name", if they have set it.
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 realName: string;

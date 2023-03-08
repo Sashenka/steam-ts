@@ -6,7 +6,7 @@
 
 The user's Steam level.
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 level: Promise<number>;

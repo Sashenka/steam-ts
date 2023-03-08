@@ -1,4 +1,3 @@
-import * as bent from "bent";
 import {SteamAPI} from '../enums'
 import {InvalidSteamIdApiKeyError} from '../errors'
 
@@ -25,8 +24,8 @@ export class SteamService {
         console.info(`GET ${api}${path}?key=${this.steamApiKey}&${parameters}`);
 
         try{
-            const request = bent('json');
-            return await request(`${api}${path}?key=${this.steamApiKey}&${parameters}`);
+            const response = await fetch(`${api}${path}?key=${this.steamApiKey}&${parameters}`);
+            return await response.json();
         } catch(exception){
             throw exception;
         }

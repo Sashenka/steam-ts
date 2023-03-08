@@ -6,7 +6,7 @@
 
 Unique identifier for the game.
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 appId: string;

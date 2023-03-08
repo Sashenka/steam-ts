@@ -6,12 +6,12 @@
 
 An Error with a SteamID.
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 export declare class InvalidSteamIdError extends Error 
 ```
-<b>Extends:</b> Error
+**Extends:** Error
 
 ## Constructors
 

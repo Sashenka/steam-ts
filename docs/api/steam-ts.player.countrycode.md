@@ -6,7 +6,7 @@
 
 The user's country of residence, 2-character ISO country code.
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 countryCode: string;

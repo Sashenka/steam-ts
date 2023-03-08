@@ -6,7 +6,7 @@
 
 The SteamUser class provides methods to query the Steam API regarding informations about a Steam user.
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 export declare class PlayerService 

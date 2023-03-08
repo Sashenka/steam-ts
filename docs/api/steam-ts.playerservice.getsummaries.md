@@ -6,7 +6,7 @@
 
 Return the player summary of the SteamdIds provided.
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 getSummaries: (steamIds: string[]) => Promise<PlayerInterface[]>;

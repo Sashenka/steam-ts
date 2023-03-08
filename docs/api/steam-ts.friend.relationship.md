@@ -6,7 +6,7 @@
 
 Relationship qualifier.
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 relationship: string;

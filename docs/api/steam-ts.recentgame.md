@@ -6,16 +6,16 @@
 
 A player's recently played game.
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 export interface RecentGame extends Game 
 ```
-<b>Extends:</b> [Game](./steam-ts.game.md)
+**Extends:** [Game](./steam-ts.game.md)
 
 ## Properties
 
-|  Property | Type | Description |
-|  --- | --- | --- |
-|  [playtimeLastTwoWeeks](./steam-ts.recentgame.playtimelasttwoweeks.md) | number | Playtime in minute in the last two weeks. |
+|  Property | Modifiers | Type | Description |
+|  --- | --- | --- | --- |
+|  [playtimeLastTwoWeeks](./steam-ts.recentgame.playtimelasttwoweeks.md) |  | number | Playtime in minute in the last two weeks. |
 

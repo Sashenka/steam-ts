@@ -6,7 +6,7 @@
 
 A list of the player's badges.
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 badges: Promise<Badge[]>;

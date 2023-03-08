@@ -6,7 +6,7 @@
 
 Constructs a new instance of the `PlayerService` class
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 constructor(configuration: Configuration);

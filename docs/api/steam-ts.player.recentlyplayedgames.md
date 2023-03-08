@@ -6,7 +6,7 @@
 
 A list of the player's recently played [games](./steam-ts.recentgame.md)<!-- -->.
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 recentlyPlayedGames(count: number): Promise<RecentGame[]>;
@@ -18,7 +18,7 @@ recentlyPlayedGames(count: number): Promise<RecentGame[]>;
 |  --- | --- | --- |
 |  count | number |  |
 
-<b>Returns:</b>
+**Returns:**
 
 Promise&lt;[RecentGame](./steam-ts.recentgame.md)<!-- -->\[\]&gt;
 

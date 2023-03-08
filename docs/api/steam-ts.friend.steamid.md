@@ -6,7 +6,7 @@
 
 64bit SteamID of the user.
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 steamId: string;

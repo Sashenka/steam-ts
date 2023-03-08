@@ -6,7 +6,7 @@
 
 A game achievement.
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 export interface Achievement 
@@ -14,11 +14,11 @@ export interface Achievement
 
 ## Properties
 
-|  Property | Type | Description |
-|  --- | --- | --- |
-|  [achievedAt](./steam-ts.achievement.achievedat.md) | Date | The date at which the achievement has been attained, null if isAchieved is false. |
-|  [apiName](./steam-ts.achievement.apiname.md) | string | The string used to access this achievement using the API. |
-|  [description](./steam-ts.achievement.description.md) | string | A description of this achievement, for displaying in the Community. May be localized. |
-|  [isAchieved](./steam-ts.achievement.isachieved.md) | boolean | A boolean indicating if this achievement has been attained. |
-|  [name](./steam-ts.achievement.name.md) | string | The name of this achievement. |
+|  Property | Modifiers | Type | Description |
+|  --- | --- | --- | --- |
+|  [achievedAt](./steam-ts.achievement.achievedat.md) |  | Date | The date at which the achievement has been attained, null if isAchieved is false. |
+|  [apiName](./steam-ts.achievement.apiname.md) |  | string | The string used to access this achievement using the API. |
+|  [description](./steam-ts.achievement.description.md) |  | string | A description of this achievement, for displaying in the Community. May be localized. |
+|  [isAchieved](./steam-ts.achievement.isachieved.md) |  | boolean | A boolean indicating if this achievement has been attained. |
+|  [name](./steam-ts.achievement.name.md) |  | string | The name of this achievement. |
 

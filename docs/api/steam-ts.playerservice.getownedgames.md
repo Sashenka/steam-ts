@@ -6,7 +6,7 @@
 
 Return the list of games owned by a player.
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 getOwnedGames: (steamId: string, includePlayedFreeGames?: boolean) => Promise<OwnedGame[]>;

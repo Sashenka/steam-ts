@@ -6,7 +6,7 @@
 
 A player's avatar.
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 export interface Avatar 
@@ -14,9 +14,9 @@ export interface Avatar
 
 ## Properties
 
-|  Property | Type | Description |
-|  --- | --- | --- |
-|  [full](./steam-ts.avatar.full.md) | string | The full URL of the player's 184x184px avatar. |
-|  [medium](./steam-ts.avatar.medium.md) | string | The full URL of the player's 64x64px avatar. |
-|  [small](./steam-ts.avatar.small.md) | string | The full URL of the player's 32x32px avatar. |
+|  Property | Modifiers | Type | Description |
+|  --- | --- | --- | --- |
+|  [full](./steam-ts.avatar.full.md) |  | string | The full URL of the player's 184x184px avatar. |
+|  [medium](./steam-ts.avatar.medium.md) |  | string | The full URL of the player's 64x64px avatar. |
+|  [small](./steam-ts.avatar.small.md) |  | string | The full URL of the player's 32x32px avatar. |
 

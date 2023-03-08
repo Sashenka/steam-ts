@@ -6,7 +6,7 @@
 
 An internal code indicating the user's state of residence.
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 stateCode: string;

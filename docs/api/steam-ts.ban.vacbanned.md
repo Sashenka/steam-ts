@@ -4,7 +4,7 @@
 
 ## Ban.vacBanned property
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 vacBanned: boolean;

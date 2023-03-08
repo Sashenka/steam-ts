@@ -6,7 +6,7 @@
 
 Return the Steam level of the Player.
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 getLevel: (steamId: string) => Promise<number>;

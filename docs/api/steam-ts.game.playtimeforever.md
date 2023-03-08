@@ -6,7 +6,7 @@
 
 Overall playtime in minutes.
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 playtimeForever: number;

@@ -6,7 +6,7 @@
 
 Return the list of achievements for a specific game.
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 getPlayerAchievements: (steamId: string, appid: string, language?: string) => Promise<any>;

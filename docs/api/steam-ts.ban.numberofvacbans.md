@@ -4,7 +4,7 @@
 
 ## Ban.numberOfVACBans property
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 numberOfVACBans: number;

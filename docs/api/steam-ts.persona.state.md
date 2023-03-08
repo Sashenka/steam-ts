@@ -6,7 +6,7 @@
 
 The player's current status.
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 state: number;

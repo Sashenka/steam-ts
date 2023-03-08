@@ -6,7 +6,7 @@
 
 A basic game.
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 export interface Game 
@@ -14,11 +14,11 @@ export interface Game
 
 ## Properties
 
-|  Property | Type | Description |
-|  --- | --- | --- |
-|  [appId](./steam-ts.game.appid.md) | string | Unique identifier for the game. |
-|  [icon](./steam-ts.game.icon.md) | string | URL for the icon of the game. |
-|  [logo](./steam-ts.game.logo.md) | string | URL for the logo of the game. |
-|  [name](./steam-ts.game.name.md) | string | Name of the application. |
-|  [playtimeForever](./steam-ts.game.playtimeforever.md) | number | Overall playtime in minutes. |
+|  Property | Modifiers | Type | Description |
+|  --- | --- | --- | --- |
+|  [appId](./steam-ts.game.appid.md) |  | string | Unique identifier for the game. |
+|  [icon](./steam-ts.game.icon.md) |  | string | URL for the icon of the game. |
+|  [logo](./steam-ts.game.logo.md) |  | string | URL for the logo of the game. |
+|  [name](./steam-ts.game.name.md) |  | string | Name of the application. |
+|  [playtimeForever](./steam-ts.game.playtimeforever.md) |  | number | Overall playtime in minutes. |
 

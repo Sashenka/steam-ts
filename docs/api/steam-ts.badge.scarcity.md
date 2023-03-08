@@ -4,7 +4,7 @@
 
 ## Badge.scarcity property
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 scarcity: number;

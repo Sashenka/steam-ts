@@ -6,7 +6,7 @@
 
 Return the list of the recently played games of a player.
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 getRecentlyPlayedGames: (steamId: string, count?: number) => Promise<RecentGame[]>;

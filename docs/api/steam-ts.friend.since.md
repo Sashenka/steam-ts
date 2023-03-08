@@ -6,7 +6,7 @@
 
 Date when the relationship was created.
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 since: Date;

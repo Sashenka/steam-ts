@@ -6,7 +6,7 @@
 
 URL for the logo of the game.
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 logo: string;

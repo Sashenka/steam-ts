@@ -4,7 +4,7 @@
 
 ## Ban.isCommunityBanned property
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 isCommunityBanned: boolean;

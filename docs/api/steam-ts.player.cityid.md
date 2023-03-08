@@ -6,7 +6,7 @@
 
 An internal code indicating the user's city of residence.
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 cityId: number;

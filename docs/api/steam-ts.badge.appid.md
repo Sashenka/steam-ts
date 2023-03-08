@@ -4,7 +4,7 @@
 
 ## Badge.appId property
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 appId: number;

@@ -6,7 +6,7 @@
 
 Return the player's bagdes.
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 getBadges: (steamId: string) => Promise<Badge[]>;

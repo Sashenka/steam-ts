@@ -6,7 +6,7 @@
 
 Return the player's friend list.
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 getFriendList: (steamId: string) => Promise<Friend[]>;

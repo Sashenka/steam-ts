@@ -6,7 +6,7 @@
 
 The amount of experience awarded by this badge.
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 experience: number;

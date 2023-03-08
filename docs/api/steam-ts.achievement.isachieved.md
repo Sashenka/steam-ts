@@ -6,7 +6,7 @@
 
 A boolean indicating if this achievement has been attained.
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 isAchieved: boolean;

@@ -6,7 +6,7 @@
 
 If hasCommunityVisibleStatistics is True, this is the URL to the statistics page of the Player fo this game.
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 statistics: string;

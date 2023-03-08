@@ -6,7 +6,7 @@
 
 A Player from the Steam API. It also provides methods to call API with the current player's SteamID.
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 export interface Player 
@@ -14,24 +14,24 @@ export interface Player
 
 ## Properties
 
-|  Property | Type | Description |
-|  --- | --- | --- |
-|  [avatar](./steam-ts.player.avatar.md) | [Avatar](./steam-ts.avatar.md) | A player's avatar. |
-|  [badges](./steam-ts.player.badges.md) | Promise&lt;[Badge](./steam-ts.badge.md)<!-- -->\[\]&gt; | A list of the player's badges. |
-|  [bans](./steam-ts.player.bans.md) | Promise&lt;[Ban](./steam-ts.ban.md)<!-- -->&gt; | The player's ban history. |
-|  [cityId](./steam-ts.player.cityid.md) | number | An internal code indicating the user's city of residence. |
-|  [community](./steam-ts.player.community.md) | [Community](./steam-ts.community.md) | The player's community profile. |
-|  [countryCode](./steam-ts.player.countrycode.md) | string | The user's country of residence, 2-character ISO country code. |
-|  [createdAt](./steam-ts.player.createdat.md) | Date | The date the player's account was created. |
-|  [friendList](./steam-ts.player.friendlist.md) | Promise&lt;[Friend](./steam-ts.friend.md)<!-- -->\[\]&gt; | A list of the player's Steam [friends](./steam-ts.friend.md)<!-- -->. |
-|  [groups](./steam-ts.player.groups.md) | Promise&lt;string\[\]&gt; |  |
-|  [lastLogOffAt](./steam-ts.player.lastlogoffat.md) | Date | The last time the user was online. |
-|  [level](./steam-ts.player.level.md) | Promise&lt;number&gt; | The user's Steam level. |
-|  [persona](./steam-ts.player.persona.md) | [Persona](./steam-ts.persona.md) | A player's persona. |
-|  [primaryGroupId](./steam-ts.player.primarygroupid.md) | string | The player's primary group, as configured in their Steam Community profile. |
-|  [realName](./steam-ts.player.realname.md) | string | The player's "Real Name", if they have set it. |
-|  [stateCode](./steam-ts.player.statecode.md) | string | An internal code indicating the user's state of residence. |
-|  [steamId](./steam-ts.player.steamid.md) | string | 64bit SteamID of the user. |
+|  Property | Modifiers | Type | Description |
+|  --- | --- | --- | --- |
+|  [avatar](./steam-ts.player.avatar.md) |  | [Avatar](./steam-ts.avatar.md) | A player's avatar. |
+|  [badges](./steam-ts.player.badges.md) |  | Promise&lt;[Badge](./steam-ts.badge.md)<!-- -->\[\]&gt; | A list of the player's badges. |
+|  [bans](./steam-ts.player.bans.md) |  | Promise&lt;[Ban](./steam-ts.ban.md)<!-- -->&gt; | The player's ban history. |
+|  [cityId](./steam-ts.player.cityid.md) |  | number | An internal code indicating the user's city of residence. |
+|  [community](./steam-ts.player.community.md) |  | [Community](./steam-ts.community.md) | The player's community profile. |
+|  [countryCode](./steam-ts.player.countrycode.md) |  | string | The user's country of residence, 2-character ISO country code. |
+|  [createdAt](./steam-ts.player.createdat.md) |  | Date | The date the player's account was created. |
+|  [friendList](./steam-ts.player.friendlist.md) |  | Promise&lt;[Friend](./steam-ts.friend.md)<!-- -->\[\]&gt; | A list of the player's Steam [friends](./steam-ts.friend.md)<!-- -->. |
+|  [groups](./steam-ts.player.groups.md) |  | Promise&lt;string\[\]&gt; |  |
+|  [lastLogOffAt](./steam-ts.player.lastlogoffat.md) |  | Date | The last time the user was online. |
+|  [level](./steam-ts.player.level.md) |  | Promise&lt;number&gt; | The user's Steam level. |
+|  [persona](./steam-ts.player.persona.md) |  | [Persona](./steam-ts.persona.md) | A player's persona. |
+|  [primaryGroupId](./steam-ts.player.primarygroupid.md) |  | string | The player's primary group, as configured in their Steam Community profile. |
+|  [realName](./steam-ts.player.realname.md) |  | string | The player's "Real Name", if they have set it. |
+|  [stateCode](./steam-ts.player.statecode.md) |  | string | An internal code indicating the user's state of residence. |
+|  [steamId](./steam-ts.player.steamid.md) |  | string | 64bit SteamID of the user. |
 
 ## Methods
 

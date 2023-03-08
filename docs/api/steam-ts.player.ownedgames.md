@@ -6,7 +6,7 @@
 
 A list of the player's [owned games](./steam-ts.ownedgame.md)<!-- -->.
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 ownedGames(includePlayedFreeGames: boolean): Promise<OwnedGame[]>;
@@ -18,7 +18,7 @@ ownedGames(includePlayedFreeGames: boolean): Promise<OwnedGame[]>;
 |  --- | --- | --- |
 |  includePlayedFreeGames | boolean |  |
 
-<b>Returns:</b>
+**Returns:**
 
 Promise&lt;[OwnedGame](./steam-ts.ownedgame.md)<!-- -->\[\]&gt;
 

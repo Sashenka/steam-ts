@@ -6,7 +6,7 @@
 
 Playtime in minute in the last two weeks.
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 playtimeLastTwoWeeks: number;

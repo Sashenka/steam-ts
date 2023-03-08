@@ -6,7 +6,7 @@
 
 Get the SteamdId of a Steam user from the profile vanity URL.
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 getSteamId: (vanityUrl: string) => Promise<string>;

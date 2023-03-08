@@ -4,7 +4,7 @@
 
 ## Ban.numberOfGameBans property
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 numberOfGameBans: number;

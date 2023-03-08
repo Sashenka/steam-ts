@@ -6,7 +6,7 @@
 
 A list of the player's Steam [achievements](./steam-ts.achievement.md)<!-- -->.
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 achievements(appId: string): Promise<Achievement[]>;
@@ -18,7 +18,7 @@ achievements(appId: string): Promise<Achievement[]>;
 |  --- | --- | --- |
 |  appId | string |  |
 
-<b>Returns:</b>
+**Returns:**
 
 Promise&lt;[Achievement](./steam-ts.achievement.md)<!-- -->\[\]&gt;
 

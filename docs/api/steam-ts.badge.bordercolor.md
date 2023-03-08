@@ -4,7 +4,7 @@
 
 ## Badge.borderColor property
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 borderColor: number;

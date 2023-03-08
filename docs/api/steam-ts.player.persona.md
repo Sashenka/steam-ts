@@ -6,7 +6,7 @@
 
 A player's persona.
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 persona: Persona;

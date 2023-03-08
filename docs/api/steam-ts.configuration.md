@@ -6,7 +6,7 @@
 
 The configuration needed to query the Steam Web API.
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 export interface Configuration 
@@ -14,7 +14,7 @@ export interface Configuration
 
 ## Properties
 
-|  Property | Type | Description |
-|  --- | --- | --- |
-|  [apiKey](./steam-ts.configuration.apikey.md) | string | The Steam API key. |
+|  Property | Modifiers | Type | Description |
+|  --- | --- | --- | --- |
+|  [apiKey](./steam-ts.configuration.apikey.md) |  | string | The Steam API key. |
 

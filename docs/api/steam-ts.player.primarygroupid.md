@@ -6,7 +6,7 @@
 
 The player's primary group, as configured in their Steam Community profile.
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 primaryGroupId: string;

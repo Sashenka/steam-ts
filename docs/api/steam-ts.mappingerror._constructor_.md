@@ -6,7 +6,7 @@
 
 Constructs a new instance of the `MappingError` class
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 constructor(originalErrorMessage: string);

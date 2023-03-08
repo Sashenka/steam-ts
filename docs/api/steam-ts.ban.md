@@ -6,7 +6,7 @@
 
 The player's ban history.
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 export interface Ban 
@@ -14,13 +14,13 @@ export interface Ban
 
 ## Properties
 
-|  Property | Type | Description |
-|  --- | --- | --- |
-|  [daysSinceLastBan](./steam-ts.ban.dayssincelastban.md) | number |  |
-|  [isCommunityBanned](./steam-ts.ban.iscommunitybanned.md) | boolean |  |
-|  [isEconomyBanned](./steam-ts.ban.iseconomybanned.md) | string |  |
-|  [numberOfGameBans](./steam-ts.ban.numberofgamebans.md) | number |  |
-|  [numberOfVACBans](./steam-ts.ban.numberofvacbans.md) | number |  |
-|  [steamId](./steam-ts.ban.steamid.md) | string |  |
-|  [vacBanned](./steam-ts.ban.vacbanned.md) | boolean |  |
+|  Property | Modifiers | Type | Description |
+|  --- | --- | --- | --- |
+|  [daysSinceLastBan](./steam-ts.ban.dayssincelastban.md) |  | number |  |
+|  [isCommunityBanned](./steam-ts.ban.iscommunitybanned.md) |  | boolean |  |
+|  [isEconomyBanned](./steam-ts.ban.iseconomybanned.md) |  | string |  |
+|  [numberOfGameBans](./steam-ts.ban.numberofgamebans.md) |  | number |  |
+|  [numberOfVACBans](./steam-ts.ban.numberofvacbans.md) |  | number |  |
+|  [steamId](./steam-ts.ban.steamid.md) |  | string |  |
+|  [vacBanned](./steam-ts.ban.vacbanned.md) |  | boolean |  |
 

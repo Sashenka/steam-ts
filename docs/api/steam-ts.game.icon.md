@@ -6,7 +6,7 @@
 
 URL for the icon of the game.
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 icon: string;

@@ -4,7 +4,7 @@
 
 ## Ban.isEconomyBanned property
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 isEconomyBanned: string;
